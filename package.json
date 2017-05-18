@@ -1,0 +1,30 @@
+{
+  "name": "@appteam6/tslint-config",
+  "version": "0.0.1",
+  "description": "A config for tslint for the Domo Apps Generator (https://git.empdev.domo.com/CustomApps/generator-da)",
+  "main": "tslint.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.empdev.domo.com:CustomApps/tslint-config.git"
+  },
+  "keywords": [
+    "tslint",
+    "react",
+    "typescript"
+  ],
+  "author": "",
+  "license": "SEE LICENSE IN LICENSE",
+  "peerDependencies": {
+    "tslint": "^5.2.0",
+    "tslint-language-service": "^0.9.3"
+  },
+  "dependencies": {
+    "tslint-config-airbnb": "github:progre/tslint-config-airbnb#51f444a",
+    "tslint-react": "^3.0.0",
+    "tsutils": "^1.6.0",
+    "typescript": "^2.3.2"
+  }
+}
