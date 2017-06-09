@@ -14,15 +14,11 @@
       true,
       [
         "Object",
-        "assign",
-        "Use the object spread operator (...) instead."
-      ], // 3.8
-      [
-        "Object",
         "prototype",
         "Use functions directly on object instead."
       ] // 3.7
     ],
+    "prefer-object-spread": true, // 3.8
     "no-multiline-string": true, // 6.2
     "prefer-template": true, // 6.3
     "only-arrow-functions": [
