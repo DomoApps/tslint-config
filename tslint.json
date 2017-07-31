@@ -60,9 +60,10 @@
     /////////////////////////
     // React
     /////////////////////////
-    "jsx-boolean-value": false,
-    "jsx-curly-spacing": [true, "always"],
-    "member-ordering": [
+    "variable-name": ["check-format", "allow-pascal-case"], // 4
+    "jsx-boolean-value": false, // 9
+    "jsx-curly-spacing": [true, "always"], // 8
+    "member-ordering": [ // 14
       true,
       {
         "order": [
