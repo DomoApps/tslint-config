@@ -22,9 +22,8 @@
     "tslint-language-service": "^0.9.3"
   },
   "dependencies": {
-    "tslint-config-airbnb": "github:progre/tslint-config-airbnb#51f444a",
+    "tslint-config-airbnb": "^5.3.0",
     "tslint-react": "^3.0.0",
-    "tsutils": "^1.6.0",
     "typescript": "^2.3.2"
   }
 }

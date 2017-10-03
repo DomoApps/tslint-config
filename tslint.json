@@ -173,6 +173,8 @@
     "no-unnecessary-qualifier": true,
     "number-literal-format": true,
     "one-line": true,
-    "prefer-method-signature": true
+    "prefer-method-signature": true,
+    "ter-indent": false,
+    "indent": [true, "spaces", 2]
   }
 }
