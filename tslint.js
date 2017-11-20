@@ -1,7 +1,12 @@
-{
+const path = require('path');
+
+module.exports = {
   "extends": [
     "tslint-config-airbnb",
     "tslint-react"
+  ],
+  "rulesDirectory": [
+    path.join(path.dirname(require.resolve('vrsource-tslint-rules')), 'rules')
   ],
   "rules": {
     "prefer-literal": [
