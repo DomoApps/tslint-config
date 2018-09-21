@@ -13,7 +13,6 @@ module.exports = {
       true,
       "object", // 3.1
       "function", // 7.10
-      "array" // 4.1
     ],
     "ban": [
       true,
@@ -25,42 +24,16 @@ module.exports = {
     ],
     "prefer-object-spread": true, // 3.8
     "no-multiline-string": true, // 6.2
-    "prefer-template": true, // 6.3
     "only-arrow-functions": [
       true,
       "allow-named-functions" // 7.1
     ],
     "no-banned-terms": true, // 7.5
     "use-named-parameter": true, // 7.6
-    "ter-arrow-spacing": true, // 8.1
     "no-for-in-array": true, // 11.1
     "no-for-in": true, // 11.1
     "no-string-literal": true, // 12.1, 12.2
-    "no-boolean-literal-compare": true, // 15.3
-    "strict-boolean-expressions": [
-      true,
-      "allow-null-union",
-      "allow-undefined-union",
-      "allow-mix",
-      "allow-boolean-or-undefined"
-    ], // 15.3
     "prefer-case-blocks": true, // 15.5
-    "curly": [
-      true,
-      "ignore-same-line"
-    ], // 16.1
-    "whitespace": [
-      true
-    ], // 19.2, 19.3, 19.4
-    "no-consecutive-blank-lines": true, // 19.8
-    "function-name": [
-      true,
-      {
-        "static-method-regex": "^[a-z][\\w\\d]+$",
-        "function-regex": "^[a-zA-z][\\w\\d]+$" // allow pascalcase for react components
-      } // 23.1
-    ],
-    "class-name": true, // 23.3
     "import-name": false,
 
     /////////////////////////
@@ -159,7 +132,6 @@ module.exports = {
     "no-unused-expression": true,
     "restrict-plus-operands": true,
     "switch-default": true,
-    "typeof-compare": true,
     "use-isnan": true,
     "linebreak-style": [true, "LF"],
     "no-require-imports": true,

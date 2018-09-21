@@ -21,11 +21,13 @@
     "tslint": "^5.2.0",
     "tslint-language-service": "^0.9.3"
   },
-  "dependencies": {
+  "devDependencies": {
     "tslint": "^5.2.0",
+    "typescript": "^3.0.3"
+  },
+  "dependencies": {
     "tslint-config-airbnb": "^5.4.2",
     "tslint-react": "^3.0.0",
-    "typescript": "^2.6.1",
     "vrsource-tslint-rules": "^5.8.0"
   }
 }
