@@ -41,7 +41,8 @@ module.exports = {
       true,
       "allow-null-union",
       "allow-undefined-union",
-      "allow-mix"
+      "allow-mix",
+      "allow-boolean-or-undefined"
     ], // 15.3
     "prefer-case-blocks": true, // 15.5
     "curly": [
