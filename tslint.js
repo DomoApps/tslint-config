@@ -42,6 +42,7 @@ module.exports = {
     "variable-name": [true, "check-format", "allow-pascal-case"], // 4
     "jsx-boolean-value": false, // 9
     "jsx-curly-spacing": [true, "always"], // 8
+    "jsx-no-multiline-js": false,
     "member-ordering": [ // 14
       true,
       {
