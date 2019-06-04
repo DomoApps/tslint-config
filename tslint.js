@@ -60,6 +60,7 @@ module.exports = {
       }
     ],
     "max-classes-per-file": [true, 1],
+    "max-line-length": false,
 
 
     ////////////////////////
