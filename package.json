@@ -1,14 +1,10 @@
 {
-  "name": "@appteam6/tslint-config",
+  "name": "@domoapps/tslint-config",
   "version": "0.2.0",
-  "description": "A config for tslint for the Domo Apps Generator (https://git.empdev.domo.com/CustomApps/generator-da)",
+  "description": "A config for tslint for the Domo Apps Generator",
   "main": "tslint.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@git.empdev.domo.com:CustomApps/tslint-config.git"
   },
   "keywords": [
     "tslint",
